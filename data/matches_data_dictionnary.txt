@@ -1,0 +1,41 @@
+# # Problem 3
+#
+# The two datasets `wta_matches.csv` and `wta_players.csv` in data folder contain information about tennis match results.
+#
+# You can find additional information if needed in the dictionnary file or here : https://github.com/JeffSackmann/tennis_wta
+#
+# Please answer the following question by using `wta_matches.csv` and `wta_players.csv` files:
+#
+# - How many matches were played by surface (Hard/Clay/Grass ...)
+# - Which country won the highest number of matches
+# - Which player(s) disputed the highest number of games
+#     - Be careful, in tennis, one match consists of several games
+#     - For example, if the score of a match is 6-1 6-3, both players disputed 16 (6+1+6+3) games during that match
+#     - Sometimes score can include a number > 10 (ex: 6-1 3-6 10-8 and both players played 34 games)
+#     - Sometimes, you will find number between parenthesis in the score column, for example 6-1 7-6 (2). Numbers between parenthesis can be ignored. In the example, both players disputed 20 games.
+#     - Sometimes, you will find a score that ends up with "RET". It means that one of the player abandoned. For example, if the score is 6-1 2-0 RET, both players disputed 9 games.
+# - Which player(s) won the highest number of matches in a row
+
+
+# Nb of matches played by surface :
+#
+# #Answer
+#
+# Best country :
+#
+# #Answer
+#
+# Player(s) that disputed the most games :
+#
+# #Answer
+#
+# Player(s) won the highest number of matches in a row :
+#
+# #Answer
+#
+
+
+# Provide the code you used, you can use multiple cells and import the libraries you want.
+
+import pandas as pd
+import numpy as np
